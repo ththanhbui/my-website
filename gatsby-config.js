@@ -14,10 +14,10 @@ module.exports = {
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
-        display: 'standalone', //'minimal-ui',
+        display: 'minimal-ui', // 'standalone',
         icon: 'src/images/apple-touch-icon.png', // This path is relative to the root of the site.
         // include_favicon: true, // Include favicon
-        legacy: true,
+        legacy: false,
       },
     },
     'gatsby-plugin-sass',
