@@ -15,9 +15,9 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui', // 'standalone',
-        icon: 'src/images/apple-touch-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicon.ico', // This path is relative to the root of the site.
         // include_favicon: true, // Include favicon
-        legacy: false,
+        // legacy: false,
       },
     },
     'gatsby-plugin-sass',
