@@ -36,5 +36,6 @@
 
 		&.page {
 			@include vendor('justify-content', 'flex-start');
+			min-height: 100%;
 		}
 	}

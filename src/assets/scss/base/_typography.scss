@@ -41,7 +41,9 @@
 		color: inherit;
 
 		&:hover {
-			border-bottom-color: transparent;
+			// href link
+			// border-bottom-color: transparent;
+			color: #fff562;
 		}
 	}
 
@@ -56,6 +58,7 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		letter-spacing: 0.05rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
