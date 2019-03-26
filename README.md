@@ -1,4 +1,4 @@
-# gatsby-starter-dimension
+# My Personal Website
 
 **This is a starter for Gatsby.js V2.**
 
