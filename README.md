@@ -1,5 +1,7 @@
 # My Personal Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a188e5a-79a8-4575-aae1-46c4550ec4ce/deploy-status)](https://app.netlify.com/sites/thanhbui/deploys)
+
 **This is a starter for Gatsby.js V2.**
 
 **The older V1 version of this starter can be found on the v1 branch:**

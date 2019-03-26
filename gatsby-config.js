@@ -16,7 +16,7 @@ module.exports = {
         theme_color: '#663399',
         display: 'standalone', //'minimal-ui',
         icon: 'src/images/apple-touch-icon.png', // This path is relative to the root of the site.
-        include_favicon: true, // Include favicon
+        // include_favicon: true, // Include favicon
         legacy: true,
       },
     },
