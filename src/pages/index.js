@@ -6,6 +6,8 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
+const duration = 200
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -18,6 +20,7 @@ class IndexPage extends React.Component {
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
+    this.handleCloseThenOpenArticle = this.handleCloseThenOpenArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
   }
@@ -51,14 +54,13 @@ class IndexPage extends React.Component {
       this.setState({
         timeout: !this.state.timeout
       })
-    }, 325)
+    }, duration)
 
     setTimeout(() => {
       this.setState({
         articleTimeout: !this.state.articleTimeout
       })
-    }, 350)
-
+    }, duration)
   }
 
   handleCloseArticle() {
@@ -71,21 +73,33 @@ class IndexPage extends React.Component {
       this.setState({
         timeout: !this.state.timeout
       })
-    }, 325)
+    }, duration)
 
     setTimeout(() => {
       this.setState({
         isArticleVisible: !this.state.isArticleVisible,
         article: ''
       })
-    }, 350)
+    }, duration)
+  }
+  
+  handleCloseThenOpenArticle(article) {
+    this.setState({
+      articleTimeout: !this.state.articleTimeout,
+      article
+    })
 
+    setTimeout(() => {
+      this.setState({
+        articleTimeout: !this.state.articleTimeout
+      })
+    }, duration)
   }
 
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
       if (this.state.isArticleVisible) {
-        this.handleCloseArticle();
+        // this.handleCloseArticle();
       }
     }
   }
@@ -100,7 +114,7 @@ class IndexPage extends React.Component {
                 params={{
                   "particles": {
                     "number": {
-                      "value": 100,
+                      "value": 95,
                       "density": {
                         "enable": true,
                         "value_area": 800
@@ -216,6 +230,8 @@ class IndexPage extends React.Component {
               articleTimeout={this.state.articleTimeout}
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
+              onOpenArticle={this.handleOpenArticle}
+              onCloseThenOpenArticle={this.handleCloseThenOpenArticle}
               setWrapperRef={this.setWrapperRef}
             />
             <Footer timeout={this.state.timeout} />  
