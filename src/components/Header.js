@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import cv from '../docs/thanh-bui_cv.pdf'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -26,7 +27,7 @@ const Header = (props) => (
             </ul>
         </nav>
 
-        <a class="button" href='/' download='thanh-bui_cv.pdf'>Download Resumé</a>
+        <a class="button" href={cv} download='thanh-bui_cv.pdf'>Download Resumé</a>
         
     </header>
 )
