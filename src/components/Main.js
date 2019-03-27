@@ -54,7 +54,7 @@ class Main extends React.Component {
           <h2 className="major">Contact</h2>
           <p>The easiest way to reach me is via email at <a href='#'>thienthanh.bui96@gmail.com</a>.</p>
           <p>I always endeavour to respond quickly to emails but my inbox does sometimes get rather full. Feel free to follow up your email if you don’t get a reply in a day or two – I will probably appreciate the reminder!</p>
-          <form name="contact" method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field" autocomplete="on">
             <input type="hidden" name="contact-me" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
