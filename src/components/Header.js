@@ -26,7 +26,7 @@ const Header = (props) => (
             </ul>
         </nav>
 
-        <button><a download="/thanh-bui_cv.pdf">Download Resumé</a></button>
+        <button><a href="/thanh-bui_cv.pdf" download>Download Resumé</a></button>
 
         
     </header>
