@@ -1,33 +1,5 @@
-# My Personal Website
-
-<p align="center">
-  <a href="https://github.com/gatsbyjs/gatsby/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby is released under the MIT license." />
-  </a>
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/8a188e5a-79a8-4575-aae1-46c4550ec4ce/deploy-status)](https://app.netlify.com/sites/thanhbui/deploys)
-  [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-  
-  <a href="https://circleci.com/gh/gatsbyjs/gatsby">
-    <img src="https://circleci.com/gh/gatsbyjs/gatsby.svg?style=shield" alt="Current CircleCI build status." />
-  </a>
-  <a href="https://www.npmjs.org/package/gatsby">
-    <img src="https://img.shields.io/npm/v/gatsby.svg" alt="Current npm package version." />
-  </a>
-  <a href="https://npmcharts.com/compare/gatsby?minimal=true">
-    <img src="https://img.shields.io/npm/dm/gatsby.svg" alt="Downloads per month on npm." />
-  </a>
-  <a href="https://npmcharts.com/compare/gatsby?minimal=true">
-    <img src="https://img.shields.io/npm/dt/gatsby.svg" alt="Total downloads on npm." />
-  </a>
-  <a href="https://gatsbyjs.org/contributing/how-to-contribute/">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=gatsbyjs">
-    <img src="https://img.shields.io/twitter/follow/gatsbyjs.svg?label=Follow%20@gatsbyjs" alt="Follow @gatsbyjs" />
-  </a>
-</p>
-
-
+# My Personal Website 
+[![Netlify Status.](https://api.netlify.com/api/v1/badges/8a188e5a-79a8-4575-aae1-46c4550ec4ce/deploy-status)](https://app.netlify.com/sites/thanhbui/deploys) [![This website is released under the MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ttbui11/my-website/blob/master/LICENSE) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Current npm package version.](https://img.shields.io/npm/v/gatsby.svg)](https://www.npmjs.org/package/gatsby)
 
 ## Table of Contents
 
@@ -89,7 +61,7 @@ Thanh Bui
 
 Navigate to `http://localhost:8000`
 
-##Build
+## Build
   
 |        Yarn Script        |                                           Description                                             |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
