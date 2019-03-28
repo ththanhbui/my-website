@@ -1,6 +1,7 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect default Netlify subdomain to primary domain
+thanhbui.netlify.com https://www.thanhbui.me 301!
 https://thanhbui.netlify.com https://www.thanhbui.me 301!
 https://thanhbui.netlify.com/* https://www.thanhbui.me/:splat 301!
 
